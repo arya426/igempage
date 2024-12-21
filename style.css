@@ -1,13 +1,55 @@
-body {
-    font-family: Roboto;
-    margin: 0;
+@font-face{ 
+    font-family:Poppins;
+    src: url(fonts/Poppins-Regular.ttf);
+        }
+div{
+    font-family:Poppins;
 }
 
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
+
+body,html{
+    margin:0;
+    padding:0;
+    font-family: 'poppins' , sans-serif;
+    line-height:1.5;
+    scroll-behavior:smooth;
+    background-color: #ADD8E6; 
 }
+
+.navbar{
+    display:flex;
+    justify-content:space-between:
+    align-items:center;
+    position:fixed;
+    top:0.8vw;
+    left:0.8vw;
+    right:0.8vw;
+    index:10;
+    height: 10vh;
+    width:auto;
+}
+
+
+.navbar-contents{
+    display:flex;
+    background-color: #000080;
+    border-radius: 7.6vw;
+    padding: 1vw 12 vw;
+    align-items: center;
+}
+
+.navbar-links{
+    width:100%
+    height:3vh;
+    display:flex;
+    flex:no;
+}
+
+
+    
+    
+    
+
 
 nav ul {
     list-style: none;
